@@ -1,0 +1,351 @@
+
+
+#carouselExampleInterval .carousel-item{
+    max-height: 500px;
+}
+
+#categories .h2 .h5{
+    text-align: center;
+}
+
+.row{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.row h6 {
+    padding-top: 7px;
+}
+
+.parent form{
+    max-height: 500px;
+    position: absolute;
+    z-index: 1;
+    display: block;
+}
+
+.parent img{
+    display: block;
+    max-height: 450px;
+    z-index: 10;
+}
+
+#foodCategory img {
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+}
+#order {
+    text-align: left;
+    position: relative;
+}
+
+.form-group {
+    text-align: left;
+    margin: 5px;
+    padding: 3px;
+}
+
+.radio-inline {
+    margin: 5px;
+    padding: 3px;
+}
+
+#contactUs {
+    text-align: left;
+}
+
+#logIn {
+    color: rgb(179, 179, 179);
+}
+
+#logIn li {
+    margin-right: 12px;
+}
+
+#caption1 {
+    background-color: black;
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 1;
+    width:70%;
+    height:90%;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+#content1 {
+    display: flexbox;
+    align-self: center;
+    flex-direction: column;
+}
+
+
+#content1 h1{
+    font-size: xxx-large;
+}
+
+#caption2 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    justify-content: flex-start;
+    border-radius: 12px;   
+    height: 100%;
+    font-family: 'Dancing Script', cursive;
+}
+
+#content2 {
+    display: flexbox; 
+    align-self: flex-start;
+    flex-grow: 15;
+    flex-direction: column; 
+    text-align: left;
+    margin-top: 50px;
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+}
+
+#content2 h1 {
+    font-size: xxx-large;
+}
+
+#caption3 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    justify-content: center;
+    max-height: 100%;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+#content3 {
+    display: flexbox; 
+    align-self: center;
+    align-content: center;
+    flex-direction: column; 
+    text-align: center;
+    max-height: inherit;
+   
+}
+#content3 li{
+    font-size: xxx-large;
+    text-align: left;
+}
+
+#content3 h1{
+    font-size: xxx-large;
+    text-decoration: underline;
+}
+
+span {
+    display: inline-flexbox;
+}
+
+#deliveryBoy {
+    position: relative;
+    display: block;
+    animation-timing-function: ease-in-out;
+    animation: myMove 3s 1;
+    z-index: 10;
+    animation-fill-mode: forwards;
+}
+
+@media screen and (max-width:1139px) {
+    .parent form {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+        max-width: 70%;
+        background-color: rgba(211, 211, 211, 0.74);
+        padding: 20px;
+        border-radius: 12px;
+    }
+    
+    /* .parent h1 {
+        text-align: center;
+    } */
+}
+
+@media screen and (max-width:1139px){
+    .parent h5,h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1139px){
+    .parent h1,h5 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1139px) {
+    #deliveryBoy {
+        display: none;
+    }
+}
+
+.form2 {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes myMove {
+    from {left: 0px;}
+    to {left: 600px;}
+}
+
+@media screen and (min-width: 2560px) {
+    #content1 h1 {
+        font-size : 130px;
+    }
+    #content1 h3 {
+        font-size : 50px;
+    }
+}
+@media screen and (max-width:2559px) {
+    #content1 h1 {
+        font-size : 90px;
+    }
+    #content1 h3 {
+        font-size : 30px;
+    }
+}
+@media screen and (max-width:1024px) {
+    #content1 h1 {
+        font-size : 80px;
+    }
+    #content1 h3 {
+        font-size : 30px;
+    }
+}
+@media screen and (max-width:768px) {
+    #content1 h1 {
+        font-size : 65px;
+    }
+    #content1 h3 {
+        font-size : 20px;
+    }
+}
+@media screen and (max-width:425px) {
+    #content1 h1 {
+        font-size : 37px;
+    }
+    #content1 h3 {
+        font-size : 15px;
+    }
+}
+@media screen and (max-width:375px) {
+    #content1 h1 {
+        font-size : 28px;
+    }
+    #content1 h3 {
+        font-size : 15px;
+    }
+}
+@media screen and (max-width:320px) {
+    #content1 h1 {
+        font-size : 25px;
+        margin-top: 10px !important;
+    }
+    #content1 h3 {
+        font-size : 12px;
+    }
+}
+
+/*------------------------------------------------------------
+-------------------------------------------------------------*/
+
+@media screen and (min-width: 2560px) {
+    #content2 h1 {
+        font-size : 145px;
+        max-width: 90%;
+    }
+}
+@media screen and (max-width:2559px) {
+    #content2 h1 {
+        font-size : 130px;
+    }
+}
+@media screen and (max-width:1024px) {
+    #content2 h1 {
+        font-size : 95px;
+    }
+}
+@media screen and (max-width:768px) {
+    #content2 h1 {
+        font-size : 70px;
+    }
+}
+@media screen and (max-width:425px) {
+    #content2 h1 {
+        font-size : 35px;
+    }
+}
+@media screen and (max-width:375px) {
+    #content2 h1 {
+        font-size : 30px;
+    }
+}
+@media screen and (max-width:320px) {
+    #content2 h1 {
+        font-size : 25px;
+    }
+}
+
+/*------------------------------------------------------------
+-------------------------------------------------------------*/
+
+@media screen and (min-width: 2560px) {
+    #content3 h1 {
+        font-size : 120px;
+    }
+}
+@media screen and (max-width:2559px) {
+    #content3 h1 {
+        font-size : 100px;
+    }
+}
+@media screen and (max-width:1024px) {
+    #content3 h1 {
+        font-size : 95px;
+    }
+}
+@media screen and (max-width:768px) {
+    #content3 h1 {
+        font-size : 77px !important;
+    }
+    #content3 li {
+        font-size : 57px;
+    }
+}
+@media screen and (max-width:425px) {
+    #content3 h1 {
+        font-size : 33px !important;
+    }
+    #content3 li {
+        font-size : 28px;
+    }
+}
+@media screen and (max-width:375px) {
+    #content3 h1 {
+        font-size : 30px !important;
+    }
+    #content3 li {
+        font-size : 25px;
+    }
+}
+@media screen and (max-width:320px) {
+    #content3 h1 {
+        font-size : 25px !important;
+        margin-top: 20px;
+    }
+    #content3 li {
+        font-size : 20px;
+    }
+}
