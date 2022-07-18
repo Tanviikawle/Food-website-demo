@@ -100,7 +100,7 @@
 #content2 {
     display: flexbox; 
     align-self: flex-start;
-    flex-grow: 15;
+    flex-grow: 10;
     flex-direction: column; 
     text-align: left;
     margin-top: 50px;
@@ -110,6 +110,7 @@
 
 #content2 h1 {
     font-size: xxx-large;
+    text-align: left;
 }
 
 #caption3 {
